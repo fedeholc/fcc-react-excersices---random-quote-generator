@@ -1,0 +1,79 @@
+.App {
+  text-align: center;
+ 
+}
+
+#root {
+ 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#quote-box {
+max-width: 600px;
+  text-align: center;
+  border: 2px solid rgb(163, 42, 153);
+  padding: 0.6rem 0.6rem 0.6rem 0.6rem;
+  border-radius: 0.5rem;
+  margin: 1rem;
+  box-shadow: 3px 3px 0px 1px rgb(163, 42, 153);
+
+}
+
+#text {
+  font-size: 1.2rem;
+  margin-top: 2rem; 
+}
+
+#author-wrapper {
+
+  text-align: right;
+}
+
+#title {
+  font-weight: bold;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid cornflowerblue;
+  
+}
+
+#new-quote:hover {
+  
+  background-color: rgb(163, 42, 153);
+  cursor: pointer;
+}
+
+#new-quote {
+  background-color: rgb(27, 104, 12);
+  color: white;
+  border: 0px;
+  padding: 0.5rem;
+  font-weight: bolder;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  margin-top: 0.5rem;
+
+}
+
+#tweet-button:hover {
+
+  background-color: rgb(163, 42, 153);
+  cursor: pointer;
+}
+#tweet-button {
+  background-color: cornflowerblue;
+  color: white;
+  border: 0px;
+  padding: 0.5rem;
+  font-weight: bolder;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+}
+
+#tweet-button>a {
+  color: white;
+  text-decoration: none;
+}
